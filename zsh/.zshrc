@@ -27,3 +27,5 @@ export EDITOR='nano'
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
+
+alias up="sudo dnf up -y && flatpak update -y && brew upgrade"
