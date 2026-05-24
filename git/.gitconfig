@@ -8,8 +8,10 @@
 	signingKey = ~/.ssh/git.pub
 [credential]
 	helper = store
-  username = jartf
+	username = jartf
 [gpg]
 	format = ssh
 [commit]
 	gpgSign = true
+[gpg "ssh"]
+	allowedSignersFile = ~/.ssh/allowed_signers
