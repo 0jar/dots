@@ -30,11 +30,33 @@ This repository contains configuration files and settings for apps I use.
 *   **[Sober](./org.vinegarhq.Sober)** & **[Lunar Client](./.lunarclient)**: settings for game clients
 *   **[YouTube Music](./YouTube%20Music)**: configs for a YouTube Music desktop player
 
-## Usage
+## Installation
 
-I haven't made an installation script yet, but you can symlink or copy these files to your system manually.
+### Interactive installer
 
-### Paths
+Run `./install.sh` to launch the interactive dotfiles installer. You can select which apps you want to install configurations for and it will copy the files to their locations.
+
+```bash
+Select the apps you want to install dotfiles for.
+Use UP/DOWN to navigate, SPACE to toggle, ENTER to confirm.
+
+> [x] bash (System)
+  [ ] zsh (System)
+      ...
+```
+
+If it detects existing files, it will prompt you with options to skip, override, halt process, or merge (JSON and plaintext) to preserve your current settings.
+
+```bash
+$ ./install.sh
+Installing selected dotfiles...
+
+--- Installing app X ---
+Warning: /home/path/to/existing/file already exists.
+Choose action - [S]kip app, [O]verride file, [M]erge (experimental), [Q]uit install:
+```
+
+### Manually copy to paths
 
 *   zsh, bash, git: Directly in your home directory (`~/.zshrc`, `~/.bashrc`, `~/.gitconfig`).
 *   ssh: The `.ssh` folder directly in your home directory.
