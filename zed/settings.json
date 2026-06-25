@@ -1,114 +1,119 @@
 // Jarema's Zed settings
-// Last updated: 8 May 2026
+// Last updated: 25 June 2026
 {
   "collaboration_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "icon_theme": "Monospace Icon Theme - Light",
   "disable_ai": true,
   "git": {
     "inline_blame": {
-      "show_commit_summary": true
-    }
+      "show_commit_summary": true,
+    },
   },
   "git_panel": {
     "dock": "right",
     "tree_view": false,
     "collapse_untracked_diff": true,
-    "sort_by_path": false
+    "sort_by_path": false,
   },
   "use_system_window_tabs": false,
   "title_bar": {
     "show_branch_status_icon": true,
-    "show_menus": true
+    "show_menus": true,
   },
   "close_on_file_delete": true,
   "use_smartcase_search": true,
   "diagnostics": {
     "inline": {
-      "enabled": true
-    }
+      "enabled": true,
+    },
   },
   "prettier": {
-    "allowed": true
+    "allowed": true,
   },
   "semantic_tokens": "combined",
   "colorize_brackets": true,
   "inlay_hints": {
     "show_value_hints": true,
-    "show_background": false
+    "show_background": false,
   },
   "format_on_save": "off",
   "vim": {
-    "use_smartcase_find": true
+    "use_smartcase_find": true,
   },
-  "toolbar": {
-  },
+  "toolbar": {},
   "which_key": {
-    "enabled": true
+    "enabled": true,
   },
   "redact_private_values": true,
   "session": {
-    "trust_all_worktrees": true
+    "trust_all_worktrees": true,
   },
   "terminal": {
     "toolbar": {
-      "breadcrumbs": true
+      "breadcrumbs": true,
     },
     "copy_on_select": true,
     "font_size": 14.0,
-    "font_family": "MonaspiceNe Nerd Font Mono",
+    "font_family": "MonaspiceNe Nerd Font",
     "line_height": {
-      "custom": 1.15
-    }
+      "custom": 1.15,
+    },
   },
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
   "project_panel": {
     "dock": "left",
     "diagnostic_badges": true,
     "bold_folder_labels": true,
-    "git_status": true
+    "git_status": true,
   },
   "outline_panel": {
     "dock": "left",
-    "git_status": true
+    "git_status": true,
   },
   "preview_tabs": {
     "enabled": false,
-    "enable_preview_from_file_finder": false
+    "enable_preview_from_file_finder": false,
   },
   "tab_bar": {
-    "show": true
+    "show": true,
   },
   "tabs": {
     "show_diagnostics": "errors",
     "file_icons": true,
-    "git_status": true
+    "git_status": true,
   },
   "search": {
     "center_on_match": false,
     "regex": true,
-    "include_ignored": false
+    "include_ignored": false,
   },
   "multi_cursor_modifier": "cmd_or_ctrl",
   "minimap": {
-    "show": "auto"
+    "show": "auto",
   },
   "selection_highlight": false,
   "autosave": "on_window_change",
-  "buffer_font_fallbacks": [
-    "MonaspiceNe Nerd Font",
-    "monospace"
-  ],
-  "buffer_font_family": "MonaspiceNe Nerd Font Mono",
+  "buffer_font_fallbacks": ["MonaspiceNe Nerd Font", "monospace"],
+  "buffer_font_family": "MonaspiceNe Nerd Font",
+  "buffer_font_features": {
+    "calt": true,
+    "ss01": true,
+    "ss02": true,
+    "ss03": true,
+    "ss06": true,
+    "ss07": true,
+    "ss08": true,
+    "ss09": true,
+    "ss10": true,
+    "liga": true
+    },
   "file_types": {
-    "php": [
-      ".php_cs",
-      ".php_cs.dist"
-    ]
+    "php": [".php_cs", ".php_cs.dist"],
   },
   "ensure_final_newline_on_save": true,
   "soft_wrap": "editor_width",
@@ -119,6 +124,6 @@
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
-    "dark": "KvS Cyberpunk 2077: Neon Violet",
+    "dark": "KvS Cyberpunk 2077: Neon Blue",
   },
 }
